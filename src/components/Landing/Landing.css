@@ -1,0 +1,9 @@
+.landingArea{
+    color: white;
+    height: 45rem;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
