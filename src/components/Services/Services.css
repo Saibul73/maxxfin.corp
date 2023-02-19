@@ -1,0 +1,33 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+gap: 1rem;
+padding: 1rem;
+}
+
+
+@media screen and (max-Width: 899px) {
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

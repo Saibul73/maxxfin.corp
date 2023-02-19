@@ -1,0 +1,25 @@
+.enquiryForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+.enquiryForm input{
+    width: 30rem;
+    background-color: rgb(255, 255, 255);
+    height: 3rem;
+    border-radius: .5rem;
+}
+.enquiryForm button{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    align-self: center;
+    height: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}

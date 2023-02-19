@@ -1,0 +1,14 @@
+.ab-container{
+    display: flex;
+    flex-direction: row;
+}
+.about{
+height: max-content;
+width: 50%;
+padding: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
