@@ -1,35 +1,32 @@
-import React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
+import './Cards.css'
+import React from "react";
 
-export default function Cards() {
+function Cards() {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
-        {/* <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        /> */}
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            COMPANY REGISTRATION
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-          The company form of business gives you infinite opportunities with limited risk.
-          
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
-    </Card>
-  );
+    <>
+    <div className='serviceHead'>
+      <h3 >OUR PROFESSIONAL SERVICES</h3>
+    </div>
+    <div className='cards'>
+<div className='card'>
+<h4>COMPANY REGISTRATION</h4>
+<p>The company form of business gives you infinite opportunities with limited risk.</p>
+</div>
+<div className='card'>
+<h4>COMPANY REGISTRATION</h4>
+<p>The company form of business gives you infinite opportunities with limited risk.</p>
+</div>
+<div className='card'>
+<h4>COMPANY REGISTRATION</h4>
+<p>The company form of business gives you infinite opportunities with limited risk.</p>
+</div>
+<div className='card'>
+<h4>COMPANY REGISTRATION</h4>
+<p>The company form of business gives you infinite opportunities with limited risk.</p>
+</div>
+    </div>
+    </>
+  )
 }
+
+export default Cards
