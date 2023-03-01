@@ -3,7 +3,7 @@ import './EnquiryForm.css'
 
 function EnquiryForm() {
   return (
-    <div >
+    <div className='enquirycontainer'>
         <form action="" className='enquiryForm'>
             <label>Name*</label>
             <input type="text" placeholder='Enter your name'/>
